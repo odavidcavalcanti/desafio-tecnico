@@ -1,0 +1,53 @@
+1. O que é DNS?
+
+- Domain Name System é um sistema responsável por traduzir nomes de domínios fáceis de memorizar, como google.com.br, em endereços de ip que os computadores utilizam para se comunicar com a internet
+
+2. O que é JML?
+
+- Joiner-Mover-Leaver é a gestão de ciclo de vida da identidade de um usuário dentro de uma organização, controlando desde a criação de acessos e permissões (Joiner), mudança de cargos, setores ou departamentos (Mover), até a revogação de acessos e desligamento (Leaver).
+
+3. O que é RBAC e SOD?
+
+- Role Based Access Control é um modelo de autorização que define o que um usuário pode fazer dentro de um sistema baseado em papéis definidos, geralmente com base no cargo ou função que aquele usuário ocupa.
+
+- Segregation of Duties é um princípio de controle interno que determina que nenhuma pessoa sozinha deve ter total controle de um processo sensível, dividindo as etapas entre diferentes colaboradores, com base na função de cada um, permitindo uma validação cruzada de todo o processo e delimitando a atuação de cada pessoa.
+
+4. O que é ITIL?
+
+- Information Technology Infrastructure Libray é um framework contendo um conjunto de boas práticas amplamente utilizado para o gerenciamento e segurança de serviços de T.I.
+
+5. O que é ISO27001?
+
+- É o principal conjunto de normas internacionais para a criação, implementação, manutenção e melhoria de um sistema, visando proteger os ativos de uma empresa contra acessos não autorizados, vazamento de dados ou ataques cibernéticos.
+
+6. O que é SOX?
+
+- É uma lei promulgada nos Estados Unidos, que a partir dela foram criados padrões rigorosos para a governança corporativa, como a exigência que os principais executivos de uma empresa assinem e certifiquem pessoalmente a veracidade das demonstrações financeiras e controles internos, que a empresa inclua um relatório anual sobre a eficácia dos seus controles internos, entre outras exigências com base nas seções da lei.
+
+7. O que é e para que serve a revisão de acessos?
+
+- Revisão de acessos é o processo de segurança que avalia periodicamente os acessos e permissões a pastas, arquivos e sistemas. Serve para assegurar que os colaboradores de uma empresa só tenham os acessos estritamente necessários para as necessidades de suas funções, prevenindo assim o acumulo de permissões e acessos em trocas de cargos, validando se os colaboradores tenham apenas os acessos devidos a suas atuações e inativando contas e eliminando acessos de pessoas que foram desligadas.
+
+8. Por que as empresas devem realizar a gestão de identidades?
+
+- Para garantir a conformidade com padrões e regulamentações de segurança como SOX e LGPD, facilitando e trazendo mais confiabilidade aos processos de revisão de acessos, SOD e JML, trazendo também a vantagem de eficiência operacional, automatizando a criação de acessos em uma contratação, e um desligamento seguro, revogando os acessos de uma pessoa automaticamente no seu desligamento.
+
+9. Explique em no máximo 10 passos como implementar uma gestão de acessos automatizada
+
+- 1. Mapear os sistemas, aplicativos, dados, contas e diretórios sensíveis.
+
+- 2. Implementar um servidor com um repositório contendo a base de colaboradores
+
+- 3. Mapear e criar uma relação de cargos e permissões entre os cargos existente na empresa, e as permissões necessárias apenas para as funções do cargo.
+
+- 4. Implementar uma automação na solicitação criação de acessos em contratações e solicitação de revogação dos mesmos em desligamentos.
+
+- 5. Implementar um fluxo de aprovação, automatizando o requerimento de aprovação dessas solicitações para os gestores responsáveis.
+
+- 6. Integrar a automação com os sistemas, arquivos e diretórios da empresa, de maneira que o fluxo seja replicado automaticamente.
+
+- 7. Criar rotinas de validação para comparar se as permissões estão condizentes com os cargos presentes no repositório, e usuários ativos, emitindo alertas em casos de falta de coerência.
+
+- 8. Auditoria com emissão de logs, e monitoramento desses logs de forma automatizada para detectar comportamentos suspeitos nos acessos.
+
+- 9. Criação automatizada de relatórios, e solicitação de revisão e assinaturas pelos executivos conforme as exigências da SOX.
