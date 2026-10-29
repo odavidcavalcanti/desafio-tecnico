@@ -1,0 +1,13 @@
+##Intelliji
+.idea
+out
+
+##Variable Environments
+.env
+
+##Files
+output
+*.txt
+
+##Maven
+target
